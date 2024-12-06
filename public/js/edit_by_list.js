@@ -168,13 +168,14 @@ function validate() {
         } else {
             valid_patterns = ['8:00AM', '9:05AM', '10:10AM', '11:15AM', '12:20PM', '1:25PM', '2:30PM', '3:35PM'];
         }
-        if(valid_patterns.includes(item['Start'])){
-            return true;
-        } else {
+        if(!valid_patterns.includes(item['Start'])){
             alert(`Invalid start time for ${item['Course']} Sec. ${item['Section']}`);
+            return false;
+        } else if(item['Section'] < 1) {
             return false;
         }
     }
+    return true;
 }
 
 buttons_div.className = 'list-edit-bottom';

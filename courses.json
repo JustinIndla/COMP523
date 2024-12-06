@@ -1,305 +1,479 @@
 {
-  "COMP110": {
-    "title": "COMP110 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 300},
-      {"section_number": 2, "seat_capacity": 300},
-      {"section_number": 3, "seat_capacity": 150},
-      {"section_number": 4, "seat_capacity": 150}
-    ]
-  },
-  "COMP116": {
-    "title": "COMP116 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": null}
-    ]
-  },
-  "COMP126": {
-    "title": "COMP126 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 120}
-    ]
-  },
-  "COMP210": {
-    "title": "COMP210 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 210},
-      {"section_number": 2, "seat_capacity": 210}
-    ]
-  },
-  "COMP211": {
-    "title": "COMP211 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 200},
-      {"section_number": 2, "seat_capacity": 200}
-    ]
-  },
-  "COMP227": {
-    "title": "COMP227 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 30}
-    ]
-  },
-  "COMP283": {
-    "title": "COMP283/283H Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 204}
-    ]
-  },
-  "COMP301": {
-    "title": "COMP301 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 200},
-      {"section_number": 2, "seat_capacity": 200}
-    ]
-  },
-  "COMP311": {
-    "title": "COMP311 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 225}
-    ]
-  },
-  "COMP380": {
-    "title": "COMP380 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP380H": {
-    "title": "COMP380H Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 24}
-    ]
-  },
-  "COMP421": {
-    "title": "COMP421 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 200}
-    ]
-  },
-  "COMP426": {
-    "title": "COMP426 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 200}
-    ]
-  },
-  "COMP431": {
-    "title": "COMP431 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP433": {
-    "title": "COMP433 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 75}
-    ]
-  },
-  "COMP435": {
-    "title": "COMP435 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 70}
-    ]
-  },
-  "COMP455": {
-    "title": "COMP455 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 125},
-      {"section_number": 2, "seat_capacity": 125}
-    ]
-  },
-  "COMP475": {
-    "title": "COMP475 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP488": {
-    "title": "COMP488 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": null}
-    ]
-  },
-  "COMP520": {
-    "title": "COMP520 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": null}
-    ]
-  },
-  "COMP523": {
-    "title": "COMP523 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP524": {
-    "title": "COMP524 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP530": {
-    "title": "COMP530 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 75}
-    ]
-  },
-  "COMP533": {
-    "title": "COMP533 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP537": {
-    "title": "COMP537 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 90}
-    ]
-  },
-  "COMP541": {
-    "title": "COMP541 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 45},
-      {"section_number": 2, "seat_capacity": 45}
-    ]
-  },
-  "COMP545": {
-    "title": "COMP545 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 25}
-    ]
-  },
-  "COMP550": {
-    "title": "COMP550 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 125},
-      {"section_number": 2, "seat_capacity": 125}
-    ]
-  },
-  "COMP560": {
-    "title": "COMP560 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP562": {
-    "title": "COMP562 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 75}
-    ]
-  },
-  "COMP581": {
-    "title": "COMP581 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP590-59": {
-    "title": "COMP590-59 Class",
-    "sections": [
-      {"section_number": 59, "seat_capacity": 90}
-    ]
-  },
-  "COMP590-139": {
-    "title": "COMP590-139 Class",
-    "sections": [
-      {"section_number": 139, "seat_capacity": 10}
-    ]
-  },
-  "COMP590-140": {
-    "title": "COMP590-140 Class",
-    "sections": [
-      {"section_number": 140, "seat_capacity": 280}
-    ]
-  },
-  "COMP590-158": {
-    "title": "COMP590-158 Class",
-    "sections": [
-      {"section_number": 158, "seat_capacity": 4}
-    ]
-  },
-  "COMP590-170": {
-    "title": "COMP590-170 Class",
-    "sections": [
-      {"section_number": 170, "seat_capacity": 30}
-    ]
-  },
-  "COMP590-172": {
-    "title": "COMP590-172 Class",
-    "sections": [
-      {"section_number": 172, "seat_capacity": 30}
-    ]
-  },
-  "COMP590-177": {
-    "title": "COMP590-177 Class",
-    "sections": [
-      {"section_number": 177, "seat_capacity": 60}
-    ]
-  },
-  "COMP730": {
-    "title": "COMP730 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": null}
-    ]
-  },
-  "COMP664": {
-    "title": "COMP664 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 60}
-    ]
-  },
-  "COMP737": {
-    "title": "COMP737 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 30}
-    ]
-  },
-  "COMP750": {
-    "title": "COMP750 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 30}
-    ]
-  },
-  "COMP755": {
-    "title": "COMP755 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 30}
-    ]
-  },
-  "COMP775": {
-    "title": "COMP775 Class",
-    "sections": [
-      {"section_number": 1, "seat_capacity": 30}
-    ]
-  },
-  "COMP790-139": {
-    "title": "COMP790-139 Class",
-    "sections": [
-      {"section_number": 139, "seat_capacity": 20}
-    ]
-  },
-  "COMP790-144": {
-    "title": "COMP790-144 Class",
-    "sections": [
-      {"section_number": 144, "seat_capacity": 30}
-    ]
-  },
-  "COMP790-148": {
-    "title": "COMP790-148 Class",
-    "sections": [
-      {"section_number": 148, "seat_capacity": 25}
-    ]
-  },
-  "COMP790-158": {
-    "title": "COMP790-158 Class",
-    "sections": [
-        {"section_number": 185, "seat_capacity": 30}
-    ]
-},
-"COMP915": {
-    "title": "COMP915 Class",
-    "sections": [
-        {"section_number": 1, "seat_capacity": 20}
-    ]
-}
+    "COMP110": {
+        "title": "COMP110 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 300
+            },
+            {
+                "section_number": 2,
+                "seat_capacity": 300
+            },
+            {
+                "section_number": 3,
+                "seat_capacity": 150
+            },
+            {
+                "section_number": 4,
+                "seat_capacity": 150
+            }
+        ]
+    },
+    "COMP116": {
+        "title": "COMP116 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": null
+            }
+        ]
+    },
+    "COMP126": {
+        "title": "COMP126 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 120
+            }
+        ]
+    },
+    "COMP210": {
+        "title": "COMP210 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 210
+            },
+            {
+                "section_number": 2,
+                "seat_capacity": 210
+            }
+        ]
+    },
+    "COMP211": {
+        "title": "COMP211 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 200
+            },
+            {
+                "section_number": 2,
+                "seat_capacity": 200
+            }
+        ]
+    },
+    "COMP227": {
+        "title": "COMP227 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP283": {
+        "title": "COMP283/283H Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 204
+            }
+        ]
+    },
+    "COMP301": {
+        "title": "COMP301 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 200
+            },
+            {
+                "section_number": 2,
+                "seat_capacity": 200
+            }
+        ]
+    },
+    "COMP311": {
+        "title": "COMP311 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 225
+            }
+        ]
+    },
+    "COMP380": {
+        "title": "COMP380 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP380H": {
+        "title": "COMP380H Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 24
+            }
+        ]
+    },
+    "COMP421": {
+        "title": "COMP421 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 200
+            }
+        ]
+    },
+    "COMP426": {
+        "title": "COMP426 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 200
+            }
+        ]
+    },
+    "COMP431": {
+        "title": "COMP431 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP433": {
+        "title": "COMP433 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 75
+            }
+        ]
+    },
+    "COMP435": {
+        "title": "COMP435 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 70
+            }
+        ]
+    },
+    "COMP455": {
+        "title": "COMP455 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 125
+            },
+            {
+                "section_number": 2,
+                "seat_capacity": 125
+            }
+        ]
+    },
+    "COMP475": {
+        "title": "COMP475 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP488": {
+        "title": "COMP488 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": null
+            }
+        ]
+    },
+    "COMP520": {
+        "title": "COMP520 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": null
+            }
+        ]
+    },
+    "COMP523": {
+        "title": "COMP523 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP524": {
+        "title": "COMP524 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP530": {
+        "title": "COMP530 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 75
+            }
+        ]
+    },
+    "COMP533": {
+        "title": "COMP533 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP537": {
+        "title": "COMP537 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 90
+            }
+        ]
+    },
+    "COMP541": {
+        "title": "COMP541 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 45
+            },
+            {
+                "section_number": 2,
+                "seat_capacity": 45
+            }
+        ]
+    },
+    "COMP545": {
+        "title": "COMP545 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 25
+            }
+        ]
+    },
+    "COMP550": {
+        "title": "COMP550 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 125
+            },
+            {
+                "section_number": 2,
+                "seat_capacity": 125
+            }
+        ]
+    },
+    "COMP560": {
+        "title": "COMP560 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP562": {
+        "title": "COMP562 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 75
+            }
+        ]
+    },
+    "COMP581": {
+        "title": "COMP581 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP590-59": {
+        "title": "COMP590-59 Class",
+        "sections": [
+            {
+                "section_number": 59,
+                "seat_capacity": 90
+            }
+        ]
+    },
+    "COMP590-139": {
+        "title": "COMP590-139 Class",
+        "sections": [
+            {
+                "section_number": 139,
+                "seat_capacity": 10
+            }
+        ]
+    },
+    "COMP590-140": {
+        "title": "COMP590-140 Class",
+        "sections": [
+            {
+                "section_number": 140,
+                "seat_capacity": 280
+            }
+        ]
+    },
+    "COMP590-158": {
+        "title": "COMP590-158 Class",
+        "sections": [
+            {
+                "section_number": 158,
+                "seat_capacity": 4
+            }
+        ]
+    },
+    "COMP590-170": {
+        "title": "COMP590-170 Class",
+        "sections": [
+            {
+                "section_number": 170,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP590-172": {
+        "title": "COMP590-172 Class",
+        "sections": [
+            {
+                "section_number": 172,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP590-177": {
+        "title": "COMP590-177 Class",
+        "sections": [
+            {
+                "section_number": 177,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP730": {
+        "title": "COMP730 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": null
+            }
+        ]
+    },
+    "COMP664": {
+        "title": "COMP664 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 60
+            }
+        ]
+    },
+    "COMP737": {
+        "title": "COMP737 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP750": {
+        "title": "COMP750 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP755": {
+        "title": "COMP755 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP775": {
+        "title": "COMP775 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP790-139": {
+        "title": "COMP790-139 Class",
+        "sections": [
+            {
+                "section_number": 139,
+                "seat_capacity": 20
+            }
+        ]
+    },
+    "COMP790-144": {
+        "title": "COMP790-144 Class",
+        "sections": [
+            {
+                "section_number": 144,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP790-148": {
+        "title": "COMP790-148 Class",
+        "sections": [
+            {
+                "section_number": 148,
+                "seat_capacity": 25
+            }
+        ]
+    },
+    "COMP790-158": {
+        "title": "COMP790-158 Class",
+        "sections": [
+            {
+                "section_number": 185,
+                "seat_capacity": 30
+            }
+        ]
+    },
+    "COMP915": {
+        "title": "COMP915 Class",
+        "sections": [
+            {
+                "section_number": 1,
+                "seat_capacity": 20
+            }
+        ]
+    }
 }

@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Dict, List, Optional
-from algorithm import load_days, load_courses, load_meeting_patterns, load_professors, load_rooms, load_periods, run_scheduling_algorithm, load_manually_scheduled_classes, get_professordata, add_professor, update_professor, delete_professor, add_courses, update_course, delete_course, get_coursedata, get_roomdata, add_room, update_room, delete_room
+from algorithm import get_manually_scheduled_data, load_days, load_meeting_patterns, load_periods, run_scheduling_algorithm, get_professordata, add_professor, update_professor, delete_professor, add_courses, update_course, delete_course, get_coursedata, get_roomdata, add_room, update_room, delete_room
 from fastapi.middleware.cors import CORSMiddleware
 from schemas import Professor
 
@@ -17,13 +17,13 @@ app.add_middleware(
 
 @app.get("/")
 def schedule_classes():
-    manually_scheduled_classes: Optional[List[dict]] = None
+    manually_scheduled_classes = get_manually_scheduled_data()
     days = load_days()
     mwf_periods, tth_periods, mw_periods = load_periods()
     meeting_patterns =  load_meeting_patterns(mwf_periods, tth_periods, mw_periods)
-    professors =  load_professors()
-    courses =  load_courses()
-    rooms =  load_rooms()
+    professors =  get_professordata()
+    courses =  get_coursedata()
+    rooms =  get_roomdata()
 
     try:
         # Run the scheduling algorithm
@@ -35,7 +35,6 @@ def schedule_classes():
             rooms=rooms,
             manually_scheduled_classes=manually_scheduled_classes
         )
-        print(results)
         return results
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -150,3 +149,19 @@ def delete_rooms(room:Room):
         return results
     except Exception as e:
         raise HTTPException(status_code = 500, detail = str(e)) 
+
+class Manaully_Scheduled_Course(BaseModel):
+    course: str
+    section: int
+    professor: str
+    meeting_pattern: str
+    time_slot: list
+    room: str
+
+@app.get("/manual")
+def get_rooms():
+    try: 
+        results = get_manually_scheduled_data()
+        return results
+    except Exception as e:
+        raise HTTPException(status_code = 500, detail = str(e))

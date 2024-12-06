@@ -1,0 +1,21 @@
+[
+    {
+        "course": "COMP110",
+        "section": 3,
+        "professor": "Alyssa Byrnes",
+        "meeting_pattern": "MWF",
+        "time_slot": ["Monday", 1],
+        "room": "university"
+    },
+    {
+        "course": "COMP541",
+        "section": 1,
+        "professor": "Montek Singh",
+        "room": "FB-F009"
+    },
+    {
+        "course": "COMP421",
+        "section": 1,
+        "professor": "TBD"
+    }
+]

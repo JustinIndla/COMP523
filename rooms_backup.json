@@ -1,0 +1,47 @@
+{
+    "SN-0014": {
+        "capacity": 128
+    },
+    "FB-F009": {
+        "capacity": 86
+    },
+    "SN-0011": {
+        "capacity": 66
+    },
+    "FB-F007": {
+        "capacity": 50
+    },
+    "FB-F141": {
+        "capacity": 50
+    },
+    "SN-0115": {
+        "capacity": 25
+    },
+    "FB-F008": {
+        "capacity": 20
+    },
+    "SN-0252": {
+        "capacity": 20
+    },
+    "SN-0006": {
+        "capacity": 15
+    },
+    "SN-0325": {
+        "capacity": 15
+    },
+    "SN-0155": {
+        "capacity": 14
+    },
+    "FB-F120": {
+        "capacity": 12
+    },
+    "SN-0277": {
+        "capacity": 10
+    },
+    "FB-F331": {
+        "capacity": 16
+    },
+    "university": {
+        "capacity": 250
+    }
+}

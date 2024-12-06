@@ -172,6 +172,7 @@ function validate() {
             alert(`Invalid start time for ${item['Course']} Sec. ${item['Section']}`);
             return false;
         } else if(item['Section'] < 1) {
+            alert(`Invalid section number for ${item['Course']} Sec. ${item['Section']}`);
             return false;
         }
     }
